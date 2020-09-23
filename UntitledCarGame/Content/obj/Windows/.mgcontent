@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/Documents/GitHub/Untitled-Car-Game/UntitledCarGame/Content/car_blue.png</File>
+    <File>D:/Documents/GitHub/Untitled-Car-Game/UntitledCarGame/Content/rect_green.png</File>
+    <File>D:/Documents/GitHub/Untitled-Car-Game/UntitledCarGame/Content/rect_red.png</File>
+    <File>D:/Documents/GitHub/Untitled-Car-Game/UntitledCarGame/Content/ui/arial.spritefont</File>
+    <File>D:/Documents/GitHub/Untitled-Car-Game/UntitledCarGame/Content/ui/default_button.png</File>
+    <File>D:/Documents/GitHub/Untitled-Car-Game/UntitledCarGame/Content/ui/default_checkbox.png</File>
+    <File>D:/Documents/GitHub/Untitled-Car-Game/UntitledCarGame/Content/ui/default_checkbox_selected.png</File>
+    <File>D:/Documents/GitHub/Untitled-Car-Game/UntitledCarGame/Content/ui/default_input_textbox.png</File>
+    <File>D:/Documents/GitHub/Untitled-Car-Game/UntitledCarGame/Content/ui/default_radio_button.png</File>
+    <File>D:/Documents/GitHub/Untitled-Car-Game/UntitledCarGame/Content/ui/default_radio_button_enabled.png</File>
+    <File>D:/Documents/GitHub/Untitled-Car-Game/UntitledCarGame/Content/ui/default_slider.png</File>
+    <File>D:/Documents/GitHub/Untitled-Car-Game/UntitledCarGame/Content/ui/default_slider_handle.png</File>
+    <File>D:/Documents/GitHub/Untitled-Car-Game/UntitledCarGame/Content/ui/untitled_car_game_logo.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File>ui/default_check_box.png</File>
+    <File>ui/default_check_box_selected.png</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

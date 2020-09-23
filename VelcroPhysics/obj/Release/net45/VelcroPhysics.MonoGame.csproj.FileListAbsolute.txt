@@ -1,0 +1,10 @@
+D:\Documents\GitHub\Untitled-Car-Game\VelcroPhysics\bin\Release\net45\VelcroPhysics.MonoGame.dll
+D:\Documents\GitHub\Untitled-Car-Game\VelcroPhysics\bin\Release\net45\VelcroPhysics.MonoGame.pdb
+D:\Documents\GitHub\Untitled-Car-Game\VelcroPhysics\bin\Release\net45\MonoGame.Framework.dll
+D:\Documents\GitHub\Untitled-Car-Game\VelcroPhysics\obj\Release\net45\VelcroPhysics.MonoGame.csprojAssemblyReference.cache
+D:\Documents\GitHub\Untitled-Car-Game\VelcroPhysics\obj\Release\net45\VelcroPhysics.MonoGame.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\Untitled-Car-Game\VelcroPhysics\obj\Release\net45\VelcroPhysics.MonoGame.AssemblyInfoInputs.cache
+D:\Documents\GitHub\Untitled-Car-Game\VelcroPhysics\obj\Release\net45\VelcroPhysics.MonoGame.AssemblyInfo.cs
+D:\Documents\GitHub\Untitled-Car-Game\VelcroPhysics\obj\Release\net45\VelcroPhysics.MonoGame.csproj.CopyComplete
+D:\Documents\GitHub\Untitled-Car-Game\VelcroPhysics\obj\Release\net45\VelcroPhysics.MonoGame.dll
+D:\Documents\GitHub\Untitled-Car-Game\VelcroPhysics\obj\Release\net45\VelcroPhysics.MonoGame.pdb

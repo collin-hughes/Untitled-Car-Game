@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Documents\\GitHub\\Untitled-Car-Game\\VelcroPhysics\\VelcroPhysics.MonoGame.csproj": {}
+  },
+  "projects": {
+    "D:\\Documents\\GitHub\\Untitled-Car-Game\\VelcroPhysics\\VelcroPhysics.MonoGame.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\GitHub\\Untitled-Car-Game\\VelcroPhysics\\VelcroPhysics.MonoGame.csproj",
+        "projectName": "VelcroPhysics.MonoGame",
+        "projectPath": "D:\\Documents\\GitHub\\Untitled-Car-Game\\VelcroPhysics\\VelcroPhysics.MonoGame.csproj",
+        "packagesPath": "C:\\Users\\Collin\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\GitHub\\Untitled-Car-Game\\VelcroPhysics\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Collin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "dependencies": {
+            "MonoGame.Framework.Portable": {
+              "target": "Package",
+              "version": "[3.6.0.1625, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{380C06A3-AC6C-4A2B-BC2D-16EBF9FC0764}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UntitledCarGame</RootNamespace>
+    <AssemblyName>UntitledCarGame</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Source\Exceptions\InvalidInstructionFileException.cs" />
+    <Compile Include="Source\Exceptions\InvalidMapFileException.cs" />
+    <Compile Include="Source\GameManagement\GameStates.cs" />
+    <Compile Include="Source\GameManagement\IScene.cs" />
+    <Compile Include="Source\Exceptions\InvalidInstructionException.cs" />
+    <Compile Include="Source\Exceptions\InvalidMemoryLocationException.cs" />
+    <Compile Include="Source\Interface\ProgrammingInterface.cs" />
+    <Compile Include="Source\MapCreator\Collision.cs" />
+    <Compile Include="Source\MapCreator\cvsData.cs" />
+    <Compile Include="Source\MapCreator\Gid.cs" />
+    <Compile Include="Source\MapCreator\Images.cs" />
+    <Compile Include="Source\MapCreator\Layer.cs" />
+    <Compile Include="Source\MapCreator\MapDraw.cs" />
+    <Compile Include="Source\MapCreator\MapLoader.cs" />
+    <Compile Include="Source\MapCreator\TileMap.cs" />
+    <Compile Include="Source\Menus\MainMenu.cs" />
+    <Compile Include="Source\Menus\OptionsMenu.cs" />
+    <Compile Include="Source\Menus\SetupMenu.cs" />
+    <Compile Include="Source\Physics\BoxColliderObject.cs" />
+    <Compile Include="Source\Physics\GameObject.cs" />
+    <Compile Include="Source\Physics\PlayerObject.cs" />
+    <Compile Include="Source\UI\Button.cs" />
+    <Compile Include="Source\UI\CheckBox.cs" />
+    <Compile Include="Source\UI\InputTextbox.cs" />
+    <Compile Include="Source\UI\RadioButton.cs" />
+    <Compile Include="Source\UI\RadioButtonController.cs" />
+    <Compile Include="Source\UI\Slider.cs" />
+    <Compile Include="Source\UI\Sprite.cs" />
+    <Compile Include="Source\UI\Textbox.cs" />
+    <Compile Include="Source\UI\UICanvas.cs" />
+    <Compile Include="Source\UI\UIElement.cs" />
+    <Compile Include="Source\UntitledCarGame.cs" />
+    <Compile Include="Source\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VelcroPhysics\VelcroPhysics.MonoGame.csproj">
+      <Project>{908706ab-dba6-4d64-887c-2e6f3fd3b4a2}</Project>
+      <Name>VelcroPhysics.MonoGame</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
